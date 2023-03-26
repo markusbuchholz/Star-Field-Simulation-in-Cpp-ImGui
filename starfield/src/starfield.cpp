@@ -105,6 +105,7 @@ int main(int argc, char const *argv[])
 
 	std::string title = "Starfield simulation";
 	initImgui(w, h, title);
+	bool flag = true;
 
 	bool show_demo_window = true;
 	bool show_another_window = false;
